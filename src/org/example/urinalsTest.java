@@ -16,7 +16,7 @@ class urinalsTest {
         assertEquals(true, ur123.getString("10001"));
         assertEquals(true, ur123.getString("10010"));
         assertFalse(ur123.getString("1100"));
-        //Failed test case - assertEquals(true, ur.getString("1100"));
+        //Failed test case - assertEquals(true, ur.getString("1100"));;
     }
 
     @Test
